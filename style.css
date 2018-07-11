@@ -1,0 +1,15 @@
+*{
+  margin: 50;
+  padding-left: 0;
+  box-sizing: border-box;
+}
+html
+{
+  font-family: 'Montserrat', sans-serif;
+}
+.menu
+{
+  float: left;
+  margin-left: 20px;
+  font-size: 20px
+}

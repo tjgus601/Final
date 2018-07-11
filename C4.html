@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-KR">
+<head>
+  <meta charset="utf-8">
+  <h1>변수 선언</h1>
+</head>
+<header>
+  <pre> 변수를 선언하는 방법은 두 가지로 나뉜다.
+    정수형 변수 : 정수를 저장하는 변수로 char, short, long, int가 있다.
+    실수형 변수 : 실수를 저장하는 변수로 float, double, long double이 있다.
+  </pre>
+  <p>사용 예시</p>
+  <body>
+    <p>#include <stdio.h></p>
+    <br>
+    <p>int main (void)</p>
+    <p>{</p>
+    <p>int a; ------------- <strong>정수형 변수 선언</strong></p>
+    <p>float b; ----------- <strong>실수형 변수 선언</strong></p>
+    <br>
+    <p>printf("%d\n",a); ----------- <strong>변수 a에 저장된 값을 출력</strong></p>
+    <p>printf("%f\n",b); ----------- <strong>변수 b에 저장된 값을 출력</strong></p>
+    <br>
+    <p>return 0;</p>
+    <p>}</p>
+  </body>
+  <hr>
+  <body>
+    <p>변수 이름을 지을 시 주의할 점</p>
+    <ul>
+      <li>특수 기호, 공백 문자, 변수 이름 맨 처음에 숫자를 사용하면 안 된다.</li>
+      <li><abbr title="실제로 해봤는데 오류가 발생해서 실행이 안된다. 근데 이유가 디버깅 오류라고만 떠서 실수하면 매우 불쾌해 질 수 있으니 유의하도록 하자">
+        C언어에서 사용되는 키워드를 변수 이름에 사용하면 안 된다.</abbr></li>
+        <li>C언어는 대소문자를 구분하므로 변수의 이름에 유의해서 지어야 한다.</li>
+      </ul>
+    </body>
+</header>
